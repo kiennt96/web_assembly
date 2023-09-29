@@ -1,5 +1,4 @@
 import 'package:flutter/services.dart' show rootBundle;
-
 import 'package:wasm_interop/wasm_interop.dart';
 
 class WasmLoader {

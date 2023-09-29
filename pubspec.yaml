@@ -10,12 +10,12 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  wasm_interop: ^2.0.1
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
   flutter_lints: ^2.0.0
-  wasm_interop: ^2.0.1
 
 flutter:
   uses-material-design: true
