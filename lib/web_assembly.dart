@@ -8,10 +8,9 @@ class WebCounter {
 
   WebCounter() {
     _loader = WasmLoader(path: 'assets/wasm/release.wasm');
-    await _loaded();
   }
 
-  Future<bool> _loaded() async {
+  Future<bool> loaded() async {
     return await _loader.initialized();
   }
 
